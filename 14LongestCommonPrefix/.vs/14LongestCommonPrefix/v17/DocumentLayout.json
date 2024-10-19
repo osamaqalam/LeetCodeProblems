@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Osama\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\Leetcode\\14LongestCommonPrefix\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F28917EC-F4A9-469A-AA71-3966B79F4094}|14LongestCommonPrefix\\14LongestCommonPrefix.vcxproj|C:\\Users\\Osama\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\Leetcode\\14LongestCommonPrefix\\14LongestCommonPrefix\\14LongestCommonPrefix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F28917EC-F4A9-469A-AA71-3966B79F4094}|14LongestCommonPrefix\\14LongestCommonPrefix.vcxproj|solutionrelative:14LongestCommonPrefix\\14LongestCommonPrefix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "14LongestCommonPrefix.cpp",
+              "DocumentMoniker": "C:\\Users\\Osama\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\Leetcode\\14LongestCommonPrefix\\14LongestCommonPrefix\\14LongestCommonPrefix.cpp",
+              "RelativeDocumentMoniker": "14LongestCommonPrefix\\14LongestCommonPrefix.cpp",
+              "ToolTip": "C:\\Users\\Osama\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\Leetcode\\14LongestCommonPrefix\\14LongestCommonPrefix\\14LongestCommonPrefix.cpp",
+              "RelativeToolTip": "14LongestCommonPrefix\\14LongestCommonPrefix.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-17T05:13:50.584Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

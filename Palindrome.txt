@@ -1,0 +1,40 @@
+class Solution {
+public:
+    bool isPalindrome(int x) {
+        
+        //all negative number are not palindrome
+        if (x < 0)
+            return false;
+
+        // Count the number of digits in the number
+        int temp = x;
+        int digitCount = 0;
+        while (temp != 0) {
+            temp /= 10;
+            digitCount++;
+        }
+
+        if (digitCount == 1)
+            return true;
+
+        // Allocate an array to store the digits
+        int* digits = new int[digitCount];
+
+        // Extract each digit and store it in the array
+        temp = x;
+        for (int i = digitCount - 1; i >= 0; i--) {
+            digits[i] = temp % 10;
+            temp /= 10;
+        }
+
+        // Check if first and last digit are equal
+        for (int j=0; j < digitCount; j++)
+        {
+            if (digits[j] != digits[digitCount-j])
+                return false;
+        }
+
+        return true;
+
+    }
+};
