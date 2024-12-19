@@ -1,4 +1,5 @@
-
+.vs*/
+Debug/
 *.PNG
 /28-Find1stOccurence/x64/Debug
 /28-Find1stOccurence/28-Find1stOccurence/x64/Debug
