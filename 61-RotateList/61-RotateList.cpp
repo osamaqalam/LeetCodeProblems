@@ -29,7 +29,7 @@ public:
                 back = back->next;
         }
 
-        if (length == 1 || (k!=1 && length%k == 0) || k%length == 0)
+        if (length == 1 || (k!=1 && k > length && length%k == 0) || k%length == 0)
             return head;
 
         if (k > length)
