@@ -23,7 +23,9 @@ public:
         
         vector<int> curList;
         vector<vector<int>> result;
+        dfs(root, targetSum, curList, result);
 
+        return result;
 
     }
 
@@ -35,9 +37,9 @@ public:
         targetSum -= root->val;
 
         // Handle leaf node that clears the target sum
-        if (!root->left && !root->right && (targetSum - root->val) == 0)
+        if (!root->left && !root->right && targetSum == 0)
         {
-            return result.push_back(curList);
+            result.push_back(curList);
         }
               
         dfs(root->left, targetSum, curList, result);
