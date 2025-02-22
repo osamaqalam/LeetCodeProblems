@@ -26,14 +26,16 @@ public:
 
     bool helper(TreeNode* root, int& depth)
     {
+        if (!root) return true;
+
         // leaf node
         if (!root->left && !root->right) {
             depth = 1;
             return true;
         }
 
-        int leftDepth;
-        int rightDepth;
+        int leftDepth = 0;
+        int rightDepth = 0;
 
         bool leftBalanced  = helper(root->left, leftDepth);
         bool rightBalanced = helper(root->right, rightDepth);
